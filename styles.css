@@ -1,0 +1,339 @@
+
+html{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+body{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/**-------------top------------*/
+.top{
+  background-color: cornflowerblue;
+}
+.insidetop{
+  margin: 0 80px;
+}
+.topdata{
+  text-align: left;
+  padding-left: 50px;
+  color: white;
+}
+.facebook{
+  margin-left: 10rem;
+}
+.font{
+  font-size: 20px;
+  margin-right: 5px;
+}
+.maginlink{
+  margin-right: 7rem;
+}
+.marginall{
+  margin-left: 50px;
+}
+.tophead{
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+.toph1{
+  width: 60%;
+  padding-top: 70px;
+}
+.topp{
+  width: 60%;
+}
+.mobiletop{
+  font-size: 25rem;
+}
+/**-------------features-------------*/
+.features{
+  padding-top: 80px;
+  padding-bottom: 70px;
+  padding-left: 90px;
+  padding-right: 60px;
+}
+.featurelogo{
+  float: left;
+}
+.featuredata{
+  text-align: left;
+}
+.featureimg{
+  font-size: 55px;
+  padding-top: 30px;
+  padding-right: 10px;
+  color: red;
+}
+.featurep{
+  width: 90%;
+}
+.featureh1{
+  color: cornflowerblue;
+}
+/**-------------carosel-----------------*/
+.outer{
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  border-radius: 5px;
+  border: 5px solid black;
+}
+.inner1{
+  background-color: skyblue;
+  width: 290px;
+  height: 100px;
+  border-bottom: 5px solid black;
+}
+.inner2{
+  background-color: red;
+  width: 290px;
+  height: 100px;
+  border-bottom: 5px solid black;
+}
+.inner3{
+  background-color: lightgrey;
+  width: 290px;
+  height: 100px;
+  border-bottom: 5px solid black;
+}
+.inner4{
+  width: 290px;
+  height: 100px;
+}
+.inner4plus{
+  padding-top: 20px;
+}
+.caroselimg{
+  padding-right: 10px;
+  font-size: 40px;
+}
+.controlsize{
+  color: red;
+}
+/**-----------screenshot----------------------*/
+.screenshot{
+  margin-top: 90px;
+  margin-bottom: 200px;
+}
+.mainscreendiv{
+  width: 50%;
+  margin: 100px auto 150px auto;
+  text-align: left;
+}
+.mainscreendiv1{
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+}
+.SCREENSHOTimg{
+  width: 55%;
+  float: left;
+}
+.SCREENSHOTimg1{
+  width: 55%;
+  float: right;
+}
+.head{
+  padding-top: 70px;
+  color: cornflowerblue;
+}
+/**-------------review------------------------------*/
+.reviewdata{
+  width: 60%;
+  margin: auto;
+  text-align: left;
+}
+.reviewdata::after{
+  content:' \201D ';
+  font-size: 6em;
+  color: cornflowerblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  float: right;
+}
+
+.reviewdata::before{
+  content:' \201C ';
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 6em;
+  color: cornflowerblue;
+}
+/**--------------download-----------------------------*/
+.download{
+  background-color: cornflowerblue;
+}
+.downloadimg{
+  padding-top: 60px;
+  width: 50%;
+  position: absolute;
+  right: 10rem;
+}
+.downloaddata{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  text-align: left;
+  padding-left: 8rem;
+  color: white;
+}
+.downloadp{
+  width: 80%;
+}
+/**--------------footer-----------------------------*/
+.footer{
+  background-color: black;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  position: relative;
+  z-index: 1;
+}
+.footerdiv{
+  margin-top: 100px;
+  text-align: right;
+  margin-right: 10rem;
+  color: white;
+}
+.footerhead{
+  margin-right: 150px;
+}
+.footermar{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.footerlogo{
+  margin-right: 15px;
+}
+.footerstart{
+  margin-right: 15px;
+  margin-left: 35px;
+}
+
+/**------------------------------------------------------------------------------------*/
+/**------------------------------------------------------------------------------------*/
+@media(max-width:1028px)
+{
+
+  h1{
+    font-size: 65px;
+  }
+  p{
+    font-size: 25px;
+  }
+  span{
+    font-size: 30px;
+  }
+  h2{
+    font-size: 45px;
+  }
+ /**----------------top-----------------*/
+ .nevbrand{
+   font-size: 30px;
+ }
+.marginall{
+  font-size: 25px;
+}
+.font{
+  margin-right: 0;
+}
+.font1{
+  margin-right: 160px;
+}
+.maginlink{
+  margin-right: 0;
+}
+ .topdata{
+   text-align: center;
+ }
+ .toph1{
+   width: 100%;
+ }
+ .topp{
+   width: 100%;
+ }
+ .btntop{
+   font-size: 30px;
+ }
+ .mobiletop{
+   font-size: 28rem;
+   padding-top: 80px;
+ }
+ /**----------------feature-----------------*/
+ .featureend{
+   margin-bottom: 30px;
+ }
+ .featureimg{
+   font-size: 60px;
+   padding-right: 30px;
+ }
+/**---------------carosel------------------*/
+.outer{
+  width: 400px;
+  height: 600px;
+  margin: auto;
+  border-radius: 5px;
+  border: 10px solid black;
+}
+.inner1{
+  width: 380px;
+  height: 150px;
+  border-bottom: 10px solid black;
+}
+.inner2{
+  width: 380px;
+  height: 150px;
+  border-bottom: 10px solid black;
+}
+.inner3{
+  width: 380px;
+  height: 150px;
+  border-bottom: 10px solid black;
+}
+.inner4{
+  width: 380px;
+  height: 150px;
+}
+.inner4plus{
+  padding-top: 25px;
+}
+/**--------------screenshot-----------------*/
+.SCREENSHOTimg{
+  width: 100%;
+  float: none;
+}
+.SCREENSHOTimg1{
+  width: 100%;
+  float: none;
+}
+.mainscreendiv{
+  text-align: center;
+  margin: 100px auto 50px auto;
+}
+.mainscreendiv1{
+  text-align: center;
+  margin: 100px auto 150px auto;
+}
+/**-------------download-----------------*/
+.downloadp{
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.downloaddata{
+  text-align: center;
+  padding-left: 0;
+}
+.downloadimg{
+  padding-top: 60px;
+  width: 50%;
+  position: static;
+  text-align: center;
+}
+ /**-------------footer-----------------*/
+ .footerhead{
+   margin-right: 0;
+ }
+}
